@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -t -r -U -p --group-directories-first | grep -v '/$' | head -n 10
